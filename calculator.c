@@ -118,6 +118,12 @@ int main()
     printf("\t\t\t\t\t| Created by Team Parentheses  |\t\t\t\n");
     printf("\t\t\t\t\t--------------------------------\t\t\t\n");
     printf("\t\t\t\t\t********************************\t\t\t\n\n\n");
+    
+    
+    printf("Enter a Number: ");
+    scanf("%lf",& calculator.number);
+    calculator.first_variable=calculator.number;
+
 
     do
     {
@@ -131,11 +137,6 @@ int main()
 
 
         printf("\n\n");
-
-        printf("Enter a Number: ");
-        scanf("%lf",& calculator.number);
-        calculator.first_variable=calculator.number;
-
 
         printf("\n\nEnter your choice: ");
         scanf(" %d", &calculator.choice);
